@@ -27,7 +27,7 @@ function Hero() {
         </div>
 
         <div className="hero-illustration" style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-          <img src={heroImg} alt="hero illustration" style={{width: '100%', height: 'auto', maxWidth: '747px', borderRadius: '20px', boxShadow: '0 30px 80px rgba(150, 100, 255, 0.5), 0 0 60px rgba(200, 150, 255, 0.4)'}} />
+          <img src={heroImg} alt="hero illustration" style={{width: '100%', height: 'auto', maxWidth: '747px', borderRadius: '20px', boxShadow: '0 30px 80px rgba(150, 100, 255, 0.5), 0 0 60px rgba(200, 150, 255, 0.4)', backgroundColor: 'transparent', backgroundImage: 'none'}} />
         </div>
       </div>
     </section>
