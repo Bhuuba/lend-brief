@@ -1,5 +1,5 @@
 import "./Hero.css";
-import heroImg from "./assets/Comp 1_2.png";
+import heroImg from "./assets/image.png";
 
 function Hero() {
   return (
@@ -26,8 +26,28 @@ function Hero() {
           </div>
         </div>
 
-        <div className="hero-illustration" style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-          <img src={heroImg} alt="hero illustration" style={{width: '100%', height: 'auto', maxWidth: '747px', borderRadius: '20px', boxShadow: '0 30px 80px rgba(150, 100, 255, 0.5), 0 0 60px rgba(200, 150, 255, 0.4)', backgroundColor: 'transparent', backgroundImage: 'none'}} />
+        <div
+          className="hero-illustration"
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <img
+            src={heroImg}
+            alt="hero illustration"
+            style={{
+              width: "100%",
+              height: "auto",
+              maxWidth: "1461px",
+              marginTop: "-136px",
+              marginLeft: "28px",
+              borderRadius: "20px",
+              backgroundImage: "none",
+              zIndex: -3,
+            }}
+          />
         </div>
       </div>
     </section>

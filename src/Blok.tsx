@@ -20,15 +20,14 @@ function Blok() {
   return (
     <>
       <div>
-        
         <div className="blok-container-1">
           <div className="blok-header">
-          <h1>Briefix Agents can handle:</h1>
-         </div>
+            <h1>Briefix Agents can handle:</h1>
+          </div>
           {/* Organizational Tasks */}
           <div
             className="blok-block organizational"
-            style={{ width: "700px", height: "311px" }}
+            style={{ width: "700px", height: "364px" }}
           >
             <div className="org-content-wrapper">
               <div className="org-text-section">
@@ -114,7 +113,7 @@ function Blok() {
           {/* Communication Tasks */}
           <div
             className="blok-block communication"
-            style={{ width: "399px", height: "311px" }}
+            style={{ width: "420px", height: "363px" }}
           >
             <img src={ComIcon} alt="Communication" className="blok-icon-img" />
             <div className="blok-text-container" style={{ width: "335px" }}>
@@ -175,7 +174,6 @@ function Blok() {
                 </div>
               </div>
             </div>
-           
           </div>
 
           {/* Analytical Tasks */}
@@ -205,7 +203,6 @@ function Blok() {
             </div>
           </div>
         </div>
-        
       </div>
     </>
   );
